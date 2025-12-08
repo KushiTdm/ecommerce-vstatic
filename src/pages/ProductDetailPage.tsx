@@ -1,4 +1,4 @@
-// src/pages/ProductDetailPage.tsx (Version statique)
+// src/pages/ProductDetailPage.tsx (Version corrigée - imports fixes)
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -10,7 +10,7 @@ import { SEOHead } from '../components/SEO/SEOHead';
 import { ProductGrid } from '../components/Products/ProductGrid';
 import { useStore } from '../store/useStore';
 import { getProductById, transformStaticProduct } from '../lib/staticData';
-import { StaticProduct } from '../data/products';
+import type { StaticProduct } from '../data/products';
 
 export const ProductDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -36,10 +36,11 @@ export const ProductDetailPage: React.FC = () => {
       
       if (foundProduct) {
         // Fetch related products from the same category
-        fetchProducts(foundProduct.categoryId.replace('cat-', ''));
+        const categorySlug = foundProduct.categoryId.replace('cat-', '');
+        fetchProducts(categorySlug);
       }
     }
-  }, [id]);
+  }, [id, fetchProducts]);
 
   if (!product) {
     return (
@@ -117,7 +118,7 @@ export const ProductDetailPage: React.FC = () => {
       <SEOHead
         title={`${product.name} - Minimal Store`}
         description={product.description}
-        canonical={`https://minimal-store.com/product/${product.id}`}
+        canonical={`https://e-commerce.netlify.app/product/${product.id}`}
         image={productImages[0]?.url}
         type="product"
         structuredData={structuredData}

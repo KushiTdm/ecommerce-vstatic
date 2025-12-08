@@ -1,0 +1,10 @@
+# Redirects for Single Page Application
+# This ensures all routes work properly with React Router
+
+/*    /index.html   200
+
+# Optional: Redirect www to non-www (uncomment if needed)
+# https://www.e-commerce.netlify.app/*  https://e-commerce.netlify.app/:splat  301!
+
+# Optional: Force HTTPS (Netlify does this automatically)
+# http://e-commerce.netlify.app/*  https://e-commerce.netlify.app/:splat  301!

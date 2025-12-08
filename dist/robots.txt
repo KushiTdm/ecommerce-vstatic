@@ -1,0 +1,24 @@
+# robots.txt for Minimal Store
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://e-commerce.netlify.app/sitemap.xml
+
+# Disallow admin or private areas if you add them later
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay (optional, helps with server load)
+Crawl-delay: 1

@@ -6,9 +6,11 @@
   # Directory to publish (Vite outputs to 'dist')
   publish = "dist"
   
-  # Node version
+  # Node version (Vite 7 requires Node 20.19+ or 22.12+)
   [build.environment]
-    NODE_VERSION = "18"
+    NODE_VERSION = "22"
+    # Site Vite/React statique : ignorer le plugin Next.js ajouté depuis l'interface Netlify
+    NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 # Redirect rules for SPA (Single Page Application)
 [[redirects]]

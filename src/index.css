@@ -25,3 +25,14 @@
 .snap-start {
   scroll-snap-align: start;
 }
+
+
+/* Mobile hardening (audit mobile-audit, 30 oct. 2026) */
+@media (max-width: 767px) {
+  input, select, textarea { font-size: 16px; }
+}
+.min-h-screen { min-height: 100vh; min-height: 100svh; }
+.h-screen { height: 100vh; height: 100svh; }
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after { animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; scroll-behavior: auto !important; }
+}

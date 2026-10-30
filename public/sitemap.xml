@@ -4,7 +4,7 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://e-commerce.netlify.app/</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -12,7 +12,7 @@
   
   <!-- All Products Page -->
   <url>
-    <loc>https://e-commerce.netlify.app/products</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/products</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -20,7 +20,7 @@
   
   <!-- Category: Clothing -->
   <url>
-    <loc>https://e-commerce.netlify.app/category/clothing</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/category/clothing</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -28,7 +28,7 @@
   
   <!-- Category: Accessories -->
   <url>
-    <loc>https://e-commerce.netlify.app/category/accessories</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/category/accessories</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -36,7 +36,7 @@
   
   <!-- Category: Shoes -->
   <url>
-    <loc>https://e-commerce.netlify.app/category/shoes</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/category/shoes</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -44,7 +44,7 @@
   
   <!-- Category: Bags -->
   <url>
-    <loc>https://e-commerce.netlify.app/category/bags</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/category/bags</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -52,7 +52,7 @@
   
   <!-- Wishlist -->
   <url>
-    <loc>https://e-commerce.netlify.app/wishlist</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/wishlist</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -60,7 +60,7 @@
   
   <!-- Cart -->
   <url>
-    <loc>https://e-commerce.netlify.app/cart</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/cart</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -68,7 +68,7 @@
   
   <!-- Individual Products -->
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-1</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-1</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-2</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-2</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -90,70 +90,70 @@
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-3</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-3</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-4</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-4</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-5</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-5</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-6</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-6</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-7</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-7</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-8</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-8</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-9</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-9</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-10</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-10</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-11</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-11</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://e-commerce.netlify.app/product/prod-12</loc>
+    <loc>https://neuraweb-ecommerce.netlify.app/product/prod-12</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://e-commerce.netlify.app/sitemap.xml
+Sitemap: https://neuraweb-ecommerce.netlify.app/sitemap.xml
 
 # Disallow admin or private areas if you add them later
 # Disallow: /admin/

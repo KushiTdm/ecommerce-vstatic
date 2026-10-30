@@ -86,6 +86,7 @@ export const Header: React.FC = () => {
             {/* Wishlist */}
             <Link 
               to="/wishlist" 
+              aria-label="Wishlist"
               className="p-2 hover:bg-gray-50 rounded-full transition-colors relative"
             >
               <Heart size={20} />

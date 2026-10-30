@@ -87,6 +87,17 @@ export const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-300">
           <p>&copy; 2025 Minimal Store. All rights reserved.</p>
+          <p className="mt-2">
+            Website by{' '}
+            <a
+              href="https://neuraweb.fr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block py-2 underline hover:text-white transition-colors"
+            >
+              Neuraweb.fr
+            </a>
+          </p>
         </div>
       </div>
     </footer>
